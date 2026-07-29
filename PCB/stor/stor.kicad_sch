@@ -4175,9 +4175,21 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "giant mess of power circuitry"
+	(rectangle
+		(start 30.48 180.34)
+		(end 153.67 241.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bebb79da-8444-47f4-bf86-d3e5555ce55f")
+	)
+	(text "8 100nF caps"
 		(exclude_from_sim no)
-		(at 32.512 108.966 0)
+		(at 58.928 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4234,6 +4246,16 @@
 			)
 		)
 		(uuid "8909c6d1-b3d5-4d16-9814-25cad12bc7c7")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 39.878 184.404 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d0b3c5f1-0493-4bf9-af11-4fb3179e457a")
 	)
 	(text "??"
 		(exclude_from_sim no)
@@ -4654,7 +4676,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TPS62177DQCR")
-		(at 46.99 226.06 0)
+		(at 118.11 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4665,7 +4687,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c6c2b25-0b97-402b-b1f2-fd9a7e092518")
 		(property "Reference" "U4"
-			(at 46.99 212.09 0)
+			(at 118.11 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4675,7 +4697,7 @@
 			)
 		)
 		(property "Value" "TPS62177DQCR"
-			(at 46.99 214.63 0)
+			(at 118.11 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4685,7 +4707,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:WSON-10_L3.0-W2.0-P0.50-BL-EP"
-			(at 46.99 240.03 0)
+			(at 118.11 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +4718,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS62177DQCR_TPS62177DQCR_C91241.html"
-			(at 46.99 242.57 0)
+			(at 118.11 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4729,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 226.06 0)
+			(at 118.11 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4740,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 46.99 245.11 0)
+			(at 118.11 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +4751,7 @@
 			)
 		)
 		(property "MPN" "TPS62177DQCR"
-			(at 46.99 247.65 0)
+			(at 118.11 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4740,7 +4762,7 @@
 			)
 		)
 		(property "LCSC Part" "C91241"
-			(at 46.99 250.19 0)
+			(at 118.11 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,7 +5668,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TYPE-C24P-GTJB040")
-		(at 349.25 153.67 0)
+		(at 260.35 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5657,7 +5679,7 @@
 		(fields_autoplaced yes)
 		(uuid "c685eaf9-78c1-479e-b9e8-273f8f5db366")
 		(property "Reference" "U2"
-			(at 351.3933 132.08 0)
+			(at 262.4933 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5668,7 +5690,7 @@
 			)
 		)
 		(property "Value" "TYPE-C 24P-GTJB 040"
-			(at 351.3933 134.62 0)
+			(at 262.4933 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5679,7 +5701,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPE-C-24P-GTJB-040"
-			(at 349.25 180.34 0)
+			(at 260.35 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5690,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151751.pdf"
-			(at 349.25 182.88 0)
+			(at 260.35 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +5723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 153.67 0)
+			(at 260.35 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5712,7 +5734,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 349.25 185.42 0)
+			(at 260.35 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5723,7 +5745,7 @@
 			)
 		)
 		(property "MPN" "TYPE-C 24P-GTJB 040"
-			(at 349.25 187.96 0)
+			(at 260.35 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5756,7 @@
 			)
 		)
 		(property "LCSC Part" "C3151751"
-			(at 349.25 190.5 0)
+			(at 260.35 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
