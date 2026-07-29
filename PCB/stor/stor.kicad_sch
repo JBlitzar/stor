@@ -7674,16 +7674,6 @@
 		)
 		(uuid "f1774b56-1891-4e46-8e56-6d83e5099af9")
 	)
-	(text "TODO put a crystal here"
-		(exclude_from_sim no)
-		(at 229.87 18.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "18c797e6-823f-41de-846d-0192b1015a36")
-	)
 	(text "TODO Card detect pin"
 		(exclude_from_sim no)
 		(at 331.216 50.292 0)
@@ -8403,6 +8393,16 @@
 			(type default)
 		)
 		(uuid "8bac2b5a-c729-44e9-b4cd-ea489d2b0f22")
+	)
+	(wire
+		(pts
+			(xy 220.98 53.34) (xy 223.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7a4656-9547-4644-9871-2378d9dfa2e7")
 	)
 	(wire
 		(pts
