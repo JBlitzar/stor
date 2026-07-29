@@ -5,6 +5,8 @@ https://www.reddit.com/r/PCB/comments/1n8w67u/stm32h723vet6_breakout_board_feedb
 
 https://github.com/WeActStudio/WeActStudio.MiniSTM32H723
 
+st.com/resource/en/schematic_pack/mb1248-h747i-d03-schematic.pdf
+
 
 - STM32H723VGT6
 - USB Full Speed
