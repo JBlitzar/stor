@@ -14,3 +14,4 @@ st.com/resource/en/schematic_pack/mb1248-h747i-d03-schematic.pdf
 - MicroSD backend (256gb cheap, 64gb reputable, 8gb industrial)
 - UHS-I MicroSD backend
 - usb3300-ezk usb phy
+- TPS62177DQCR buck
