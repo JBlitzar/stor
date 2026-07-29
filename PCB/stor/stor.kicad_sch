@@ -1598,6 +1598,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:PESD15VL2BT,215"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD15VL2BT,215"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_NXP_PESD15VL2BT_PESD15VL2BT_C38838.html"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PESD15VL2BT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nexperia(安世)"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PESD15VL2BT,215"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C38838"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD Protection Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PESD15VL2BT,215_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.6 1.27) (xy -6.6 1.78) (xy -3.56 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -0.76) (xy -5.08 1.78) (xy -3.81 -0.76) (xy -6.35 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 2.54) (xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.52) (xy -5.08 -4.06) (xy -6.35 -1.52) (xy -3.81 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.56 -3.56) (xy -3.56 -4.06) (xy -6.6 -4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.56 1.27) (xy 3.56 1.78) (xy 6.6 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.76) (xy 5.08 1.78) (xy 6.35 -0.76) (xy 3.81 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.52) (xy 5.08 -4.06) (xy 3.81 -1.52) (xy 6.35 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.6 -3.56) (xy 6.6 -4.06) (xy 3.56 -4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:RC0402FR-07100KL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7663,8 +7966,8 @@
 		(uuid "bebb79da-8444-47f4-bf86-d3e5555ce55f")
 	)
 	(rectangle
-		(start 114.3 170.18)
-		(end 187.96 228.6)
+		(start 113.03 171.45)
+		(end 203.2 231.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -7694,19 +7997,9 @@
 		)
 		(uuid "4307be5f-1e31-4fe1-8c91-522e6011a62d")
 	)
-	(text "TODO add esd protection"
-		(exclude_from_sim no)
-		(at 130.302 224.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4dc35d77-4cda-4b2e-bfe2-23d25010a775")
-	)
 	(text "USBC"
 		(exclude_from_sim no)
-		(at 121.92 173.99 0)
+		(at 120.396 174.498 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7724,9 +8017,9 @@
 		)
 		(uuid "75210ae2-8905-40f3-91f1-5eff8041adb3")
 	)
-	(text "to a GPIO"
+	(text "TODO to a GPIO"
 		(exclude_from_sim no)
-		(at 218.44 113.03 90)
+		(at 218.44 116.078 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7811,7 +8104,7 @@
 		(uuid "224c52fe-a350-45fb-ba83-b5158540bf48")
 	)
 	(junction
-		(at 171.45 222.25)
+		(at 186.69 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22e9b5e9-abb0-4b3a-ad00-9136ea361585")
@@ -8013,11 +8306,11 @@
 		(uuid "31ae8662-6237-4525-9d66-8b379a3d25ce")
 	)
 	(no_connect
-		(at 160.02 186.69)
+		(at 175.26 187.96)
 		(uuid "3ecca2ff-dac4-4f3e-ad74-bee20abd02a8")
 	)
 	(no_connect
-		(at 132.08 189.23)
+		(at 147.32 190.5)
 		(uuid "745609ea-70f3-497f-832a-a9c631d9c19e")
 	)
 	(no_connect
@@ -8025,31 +8318,31 @@
 		(uuid "7a0fa6e8-2702-46fb-84c4-001943266c74")
 	)
 	(no_connect
-		(at 160.02 189.23)
+		(at 175.26 190.5)
 		(uuid "83e807a3-f957-4a54-ba5f-7a8b17ab24fa")
 	)
 	(no_connect
-		(at 132.08 207.01)
+		(at 147.32 208.28)
 		(uuid "8ef74944-2889-420a-b8a1-ab3ec0b52b42")
 	)
 	(no_connect
-		(at 132.08 194.31)
+		(at 147.32 195.58)
 		(uuid "91f2dfeb-5b26-4336-9c88-762d4abd7256")
 	)
 	(no_connect
-		(at 160.02 207.01)
+		(at 175.26 208.28)
 		(uuid "931ab6a7-1154-4cbb-84e4-dead0e222540")
 	)
 	(no_connect
-		(at 160.02 201.93)
+		(at 175.26 203.2)
 		(uuid "ae47e043-3d66-4b87-b2c7-c6bd997cd816")
 	)
 	(no_connect
-		(at 132.08 209.55)
+		(at 147.32 210.82)
 		(uuid "aea5300b-58c8-4140-bdb0-f7aff218bcf2")
 	)
 	(no_connect
-		(at 160.02 209.55)
+		(at 175.26 210.82)
 		(uuid "d67010ea-a55f-4615-8cc0-6e040b940185")
 	)
 	(no_connect
@@ -8057,7 +8350,7 @@
 		(uuid "de210677-420a-4fb6-8edd-4e6866d1b4b7")
 	)
 	(no_connect
-		(at 132.08 186.69)
+		(at 147.32 187.96)
 		(uuid "e4211d7b-cd1d-476f-a27a-9428cf451bce")
 	)
 	(no_connect
@@ -8246,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 222.25) (xy 180.34 222.25)
+			(xy 186.69 223.52) (xy 195.58 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8795,7 +9088,7 @@
 		(uuid "ffdd152a-e67c-4c67-8daa-14e7d2ba67a5")
 	)
 	(label "D+"
-		(at 160.02 196.85 0)
+		(at 175.26 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8874,6 +9167,16 @@
 		)
 		(uuid "12054c6e-d8d2-4152-83d8-537a0cf9ae20")
 	)
+	(label "D-"
+		(at 133.35 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1952d84c-654e-4854-96b4-a1b54a75da84")
+	)
 	(label "VCAP2"
 		(at 27.94 57.15 180)
 		(effects
@@ -8915,7 +9218,7 @@
 		(uuid "20b5b038-fade-46a8-af66-e2ceb659e2f3")
 	)
 	(label "CC2"
-		(at 180.34 212.09 0)
+		(at 195.58 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9005,7 +9308,7 @@
 		(uuid "2e5dc32f-7e36-4f47-9a79-087a7656719f")
 	)
 	(label "CC1"
-		(at 171.45 212.09 180)
+		(at 186.69 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9115,7 +9418,7 @@
 		(uuid "426869d6-85b9-412d-b86c-49d503d0be7c")
 	)
 	(label "D-"
-		(at 132.08 196.85 180)
+		(at 147.32 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9193,6 +9496,16 @@
 			(justify right bottom)
 		)
 		(uuid "67a10b37-3051-4606-b19e-e17eb7123421")
+	)
+	(label "D+"
+		(at 133.35 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68499b53-55ab-4723-8cbd-09cb2c20c6a2")
 	)
 	(label "SWCLK"
 		(at 157.48 83.82 0)
@@ -9445,7 +9758,7 @@
 		(uuid "c22aa76e-7d8e-4810-916e-e5578b1b69a9")
 	)
 	(label "VBUS"
-		(at 160.02 191.77 0)
+		(at 175.26 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9455,7 +9768,7 @@
 		(uuid "c2a13e5b-9a37-459a-a4ab-759605f663e2")
 	)
 	(label "VBUS"
-		(at 132.08 191.77 180)
+		(at 147.32 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9535,7 +9848,7 @@
 		(uuid "d60d44fd-e6dd-4ce6-b4bd-60d90e7cce08")
 	)
 	(label "D-"
-		(at 160.02 199.39 0)
+		(at 175.26 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9545,7 +9858,7 @@
 		(uuid "d65c0bad-7e5c-4bd0-a8e5-105afe6ce568")
 	)
 	(label "VBUS"
-		(at 132.08 204.47 180)
+		(at 147.32 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9595,7 +9908,7 @@
 		(uuid "ead47bbd-fc4d-4e97-b157-5c418ca9d742")
 	)
 	(label "CC2"
-		(at 160.02 194.31 0)
+		(at 175.26 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9605,7 +9918,7 @@
 		(uuid "ec1f640a-7c5c-4cb6-a230-84a7e3247aba")
 	)
 	(label "CC1"
-		(at 132.08 201.93 180)
+		(at 147.32 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9665,7 +9978,7 @@
 		(uuid "f04fbce2-f9dd-4494-9b2f-975605d792e8")
 	)
 	(label "VBUS"
-		(at 160.02 204.47 0)
+		(at 175.26 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9675,7 +9988,7 @@
 		(uuid "f2bdffd8-8311-4020-8b3b-874be5a719ad")
 	)
 	(label "D+"
-		(at 132.08 199.39 180)
+		(at 147.32 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10621,7 +10934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 184.15 180)
+		(at 175.26 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10632,7 +10945,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ef2689d-89fd-4855-b20e-69d18b817aab")
 		(property "Reference" "#PWR020"
-			(at 160.02 177.8 0)
+			(at 175.26 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 179.07 0)
+			(at 175.26 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10653,7 +10966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 184.15 0)
+			(at 175.26 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +10977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 184.15 0)
+			(at 175.26 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,7 +10988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 184.15 0)
+			(at 175.26 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,6 +11120,122 @@
 			(project "stor"
 				(path "/d0bb07ec-2650-48b2-bcd0-488070624271"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PESD15VL2BT,215")
+		(at 125.73 200.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fcb15c9-60bc-4a95-9d0e-ec830996fdd8")
+		(property "Reference" "D2"
+			(at 125.73 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD15VL2BT,215"
+			(at 125.73 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 140.97 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_NXP_PESD15VL2BT_PESD15VL2BT_C38838.html"
+			(at 143.51 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PESD15VL2BT"
+			(at 125.73 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia(安世)"
+			(at 146.05 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PESD15VL2BT,215"
+			(at 148.59 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C38838"
+			(at 151.13 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbed9cce-2d4a-47bf-96b4-b9c0f0e51f3b")
+		)
+		(pin "3"
+			(uuid "d049404d-6c38-4303-8c8c-f9ce5a829ebd")
+		)
+		(pin "1"
+			(uuid "2c66ccdf-bc76-4ab5-9cf3-e57e915098fe")
+		)
+		(instances
+			(project "stor"
+				(path "/d0bb07ec-2650-48b2-bcd0-488070624271"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11316,7 +11745,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-075K1L")
-		(at 180.34 217.17 90)
+		(at 195.58 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11327,7 +11756,7 @@
 		(fields_autoplaced yes)
 		(uuid "18ce8050-90a9-472f-9d14-06e14de74b58")
 		(property "Reference" "R3"
-			(at 182.88 215.8999 90)
+			(at 198.12 217.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11338,7 +11767,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 182.88 218.4399 90)
+			(at 198.12 219.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11349,7 +11778,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0402"
-			(at 187.96 217.17 0)
+			(at 203.2 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,7 +11789,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_5-1KR-5101-1_C105872.html"
-			(at 190.5 217.17 0)
+			(at 205.74 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,7 +11800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 217.17 0)
+			(at 195.58 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11382,7 +11811,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 193.04 217.17 0)
+			(at 208.28 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11393,7 +11822,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-075K1L"
-			(at 195.58 217.17 0)
+			(at 210.82 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11404,7 +11833,7 @@
 			)
 		)
 		(property "LCSC Part" "C105872"
-			(at 198.12 217.17 0)
+			(at 213.36 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,7 +11973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 184.15 180)
+		(at 147.32 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11555,7 +11984,7 @@
 		(fields_autoplaced yes)
 		(uuid "243e293f-0125-4938-a97b-ad137f7abb31")
 		(property "Reference" "#PWR018"
-			(at 132.08 177.8 0)
+			(at 147.32 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11566,7 +11995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 179.07 0)
+			(at 147.32 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11576,7 +12005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 184.15 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11587,7 +12016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 184.15 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11598,7 +12027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 184.15 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12104,6 +12533,84 @@
 			(project "stor"
 				(path "/d0bb07ec-2650-48b2-bcd0-488070624271"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0a571c-8cad-4cc3-b9ef-488ea19fa458")
+		(property "Reference" "#PWR044"
+			(at 118.11 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "432cd0f4-a7b9-4bd2-a250-1c6118e7826e")
+		)
+		(instances
+			(project "stor"
+				(path "/d0bb07ec-2650-48b2-bcd0-488070624271"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13659,7 +14166,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 179.07 180)
+		(at 161.29 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13670,7 +14177,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b51a898-612b-4bff-acdc-90673f9b5b75")
 		(property "Reference" "#PWR019"
-			(at 146.05 172.72 0)
+			(at 161.29 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13681,7 +14188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 173.99 0)
+			(at 161.29 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13691,7 +14198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 179.07 0)
+			(at 161.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,7 +14209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 179.07 0)
+			(at 161.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,7 +14220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 179.07 0)
+			(at 161.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14206,7 +14713,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-075K1L")
-		(at 171.45 217.17 90)
+		(at 186.69 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14217,7 +14724,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c9f00c0-f7e6-4a51-8bec-897eab93448e")
 		(property "Reference" "R2"
-			(at 173.99 215.8999 90)
+			(at 189.23 217.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14228,7 +14735,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 173.99 218.4399 90)
+			(at 189.23 219.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14239,7 +14746,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0402"
-			(at 179.07 217.17 0)
+			(at 194.31 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14250,7 +14757,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_5-1KR-5101-1_C105872.html"
-			(at 181.61 217.17 0)
+			(at 196.85 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14261,7 +14768,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 217.17 0)
+			(at 186.69 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14272,7 +14779,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 184.15 217.17 0)
+			(at 199.39 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14283,7 +14790,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-075K1L"
-			(at 186.69 217.17 0)
+			(at 201.93 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14294,7 +14801,7 @@
 			)
 		)
 		(property "LCSC Part" "C105872"
-			(at 189.23 217.17 0)
+			(at 204.47 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14807,7 +15314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 212.09 0)
+		(at 175.26 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14818,7 +15325,7 @@
 		(fields_autoplaced yes)
 		(uuid "84bdf3e9-5ab5-4b1a-a2a6-65650862e0c9")
 		(property "Reference" "#PWR022"
-			(at 160.02 218.44 0)
+			(at 175.26 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,7 +15336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 217.17 0)
+			(at 175.26 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14839,7 +15346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 212.09 0)
+			(at 175.26 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14850,7 +15357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 212.09 0)
+			(at 175.26 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14861,7 +15368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 212.09 0)
+			(at 175.26 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16599,7 +17106,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TYPE-C24P-GTJB040")
-		(at 146.05 198.12 0)
+		(at 161.29 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16610,7 +17117,7 @@
 		(fields_autoplaced yes)
 		(uuid "c685eaf9-78c1-479e-b9e8-273f8f5db366")
 		(property "Reference" "U2"
-			(at 148.1933 176.53 0)
+			(at 163.4333 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16621,7 +17128,7 @@
 			)
 		)
 		(property "Value" "TYPE-C 24P-GTJB 040"
-			(at 148.1933 179.07 0)
+			(at 163.4333 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16632,7 +17139,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPE-C-24P-GTJB-040"
-			(at 146.05 224.79 0)
+			(at 161.29 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16643,7 +17150,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151751.pdf"
-			(at 146.05 227.33 0)
+			(at 161.29 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16654,7 +17161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 198.12 0)
+			(at 161.29 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16665,7 +17172,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 146.05 229.87 0)
+			(at 161.29 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16676,7 +17183,7 @@
 			)
 		)
 		(property "MPN" "TYPE-C 24P-GTJB 040"
-			(at 146.05 232.41 0)
+			(at 161.29 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16687,7 +17194,7 @@
 			)
 		)
 		(property "LCSC Part" "C3151751"
-			(at 146.05 234.95 0)
+			(at 161.29 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16977,7 +17484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 212.09 0)
+		(at 147.32 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16988,7 +17495,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4e96f9c-e662-47bd-83f7-05e49eb47e06")
 		(property "Reference" "#PWR023"
-			(at 132.08 218.44 0)
+			(at 147.32 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16999,7 +17506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 217.17 0)
+			(at 147.32 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17009,7 +17516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 212.09 0)
+			(at 147.32 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17020,7 +17527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 212.09 0)
+			(at 147.32 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17031,7 +17538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 212.09 0)
+			(at 147.32 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17446,7 +17953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 215.9 0)
+		(at 161.29 217.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17457,7 +17964,7 @@
 		(fields_autoplaced yes)
 		(uuid "e31f9964-033b-4ae8-b6cc-ddacfefee917")
 		(property "Reference" "#PWR021"
-			(at 146.05 222.25 0)
+			(at 161.29 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17468,7 +17975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 220.98 0)
+			(at 161.29 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17478,7 +17985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 215.9 0)
+			(at 161.29 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17489,7 +17996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 215.9 0)
+			(at 161.29 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17500,7 +18007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 215.9 0)
+			(at 161.29 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17795,7 +18302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 222.25 0)
+		(at 186.69 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17806,7 +18313,7 @@
 		(fields_autoplaced yes)
 		(uuid "edf71710-18c2-4a04-a434-927318ff3bb3")
 		(property "Reference" "#PWR024"
-			(at 171.45 228.6 0)
+			(at 186.69 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17817,7 +18324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 227.33 0)
+			(at 186.69 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17827,7 +18334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 222.25 0)
+			(at 186.69 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17838,7 +18345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 222.25 0)
+			(at 186.69 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17849,7 +18356,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 222.25 0)
+			(at 186.69 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
