@@ -12145,7 +12145,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:USB3300-EZK-TR")
-		(at 245.11 91.44 0)
+		(at 251.46 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12156,7 +12156,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fbaa34c-c797-449b-ac78-a8ee22aa9b72")
 		(property "Reference" "U3"
-			(at 256.1433 62.23 0)
+			(at 262.4933 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12167,7 +12167,7 @@
 			)
 		)
 		(property "Value" "USB3300-EZK-TR"
-			(at 256.1433 64.77 0)
+			(at 262.4933 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12178,7 +12178,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:QFN-32_L5.0-W5.0-P0.50-BL-EP3.4"
-			(at 245.11 125.73 0)
+			(at 251.46 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,7 +12189,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/USB_MICROCHIP_USB3300-EZK-TR_USB3300-EZK-TR_C108383.html"
-			(at 245.11 128.27 0)
+			(at 251.46 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12200,7 +12200,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 91.44 0)
+			(at 251.46 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12211,7 +12211,7 @@
 			)
 		)
 		(property "Manufacturer" "MICROCHIP(美国微芯)"
-			(at 245.11 130.81 0)
+			(at 251.46 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12222,7 +12222,7 @@
 			)
 		)
 		(property "MPN" "USB3300-EZK-TR"
-			(at 245.11 133.35 0)
+			(at 251.46 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12233,7 +12233,7 @@
 			)
 		)
 		(property "LCSC Part" "C108383"
-			(at 245.11 135.89 0)
+			(at 251.46 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
