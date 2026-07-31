@@ -90,3 +90,23 @@ Fussed with the routing a little bit. Managed to get some of the SD bus traces s
 Yeah, the routing looks quite... intricate ATP
 
 ![](doc/intricate.png)
+
+I also swapped out my THT USBC male for a different one that's less sketch and not weird and double-sided. This one will be more secure. It also had the escape routing I needed for the D+ and D- diff pairs to line up on the right side. 
+
+Jul 31, 1 hour
+
+I realized that I hadn't been writing journals, so I wrote journals.
+
+oh also I realized I haven't shown a 3d render, here it is!
+
+![](doc/rend.png)
+
+The front is pretty packed with components. I think it looks cool.
+
+I also uh drew my own SD logo in jspaint because I thought it'd be funny. I didn't pay the $1500 SD™ licensing fee. Front was pretty busy though so I guess it could only go on the back. It's a bit weird for that to be the only thing on the back, so I guess I have a few options:
+
+- remove it
+- add other (serious) silkscreen art
+- add other spoof regulatory markings lol (FCC, CE, ROHS)
+
+Anyways this was mostly just a whimsical thing I did
