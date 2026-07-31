@@ -73,3 +73,11 @@ I'm not here to talk about impedance matching though, I just did placement. Here
 Then I realized I had been putting off the differential pair when I really should have done it first. And really, my whole placement in that upper section was no good because of the rotation. I ended up completely refactoring the routing by changing the placement of the USB PHY ic. Which mean that the XO/XI caps plus the crystal had to all be re-placed.
 
 ![](doc/ref1.png)
+
+Then I just did the routing for the USB PHY and the sd card. Which is like sixteen bus lines, all interwoven.
+
+![](crazy1.png)
+
+![](crazy2.png)
+
+![](crazy3.png)
