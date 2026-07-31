@@ -52,3 +52,22 @@ The STM pins were unfortunately not... charitably labelled. I used a lot of cmd+
 Also some confusion between VDD/VDDA and GND/GNDA. Since I'm not doing any analogue stuff, I merged them. Basically, the reddit PSU situation was way overengineered. That's why I went with the TPS.
 
 So I guess research and schematic both took a surprising amount of time here.
+
+
+Jul 29, 2.5 hours
+
+Placement and routing !!
+
+You know what they say, good placement is 90% of good routing. What's cool is that I was pretty much able to fit everything in a standard thumb-drive footprint. Well, a slightly chunky thumb drive. Thumb drives are usually 18x60mm ish with casing, mine stands at 20mm wide without casing. Still acceptable. 
+
+this is my first four-layer PCB, although honestly it feels like a two-layer pcb because I'm trying to keep the gnd and power planes solid, so there are really only two signal planes, just like normal. For the two most common traces though, gnd and vcc, all you have to do is via down and you tap the plane. GND plane important for usb2.0 diff pair, and four-layer esp important because it means the layers are thinner so impedance matching works out.
+
+I'm not here to talk about impedance matching though, I just did placement. Here are some progress pics:
+
+![](doc/place1.png)
+
+![](doc/place2.png)
+
+![](doc/route1.png)
+
+Then I realized I had been putting off the differential pair when I really should have done it first. And really, my whole placement in that upper section was no good because of the rotation. I ended up completely refactoring the routing by changing the placement of the USB PHY ic. Which mean that the XO/XI caps plus the crystal had to all be refactored.
