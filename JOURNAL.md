@@ -76,8 +76,17 @@ Then I realized I had been putting off the differential pair when I really shoul
 
 Then I just did the routing for the USB PHY and the sd card. Which is like sixteen bus lines, all interwoven.
 
-![](crazy1.png)
+![](doc/crazy1.png)
 
-![](crazy2.png)
+![](doc/crazy2.png)
 
-![](crazy3.png)
+![](doc/crazy3.png)
+
+
+Jul 30, 1 hour
+
+Fussed with the routing a little bit. Managed to get some of the SD bus traces slightly further from the edge, which is probably good for case considerations even if solder mask exists. push and shove routing really is my goat. EasyEDA could never compete. (speaking of which, the newest kicad nightly update releases constraint-driven geometry! so cool! But I digress.)
+
+Yeah, the routing looks quite... intricate ATP
+
+![](doc/intricate.png)
