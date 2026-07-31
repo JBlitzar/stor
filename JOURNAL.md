@@ -113,7 +113,7 @@ Anyways this was mostly just a whimsical thing I did
 
 TODOs:
 
-- double check the premise of the schematic more closely
+- double check the premise of the schematic more closely (You shouldn't always trust reddit with these things. Last time I compared a hackaday tutorial to the datasheet on other stuff, it deviated in some really meaningful ways)
 - Write firmware (non-trivial!)
 - Get a quote + BOM optimize
 - Docs, good README, flashing instructions
