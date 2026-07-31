@@ -111,7 +111,7 @@ I also uh drew my own SD logo in jspaint because I thought it'd be funny. I didn
 
 Anyways this was mostly just a whimsical thing I did.
 
-I also added mounting holes!!
+I also added mounting holes!! had to shift the microsd holder a bit to the right and redo those traces but otherwise yeah. They are m3 holes. 
 
 ![](doc/holes.png)
 
