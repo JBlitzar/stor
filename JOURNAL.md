@@ -109,7 +109,11 @@ I also uh drew my own SD logo in jspaint because I thought it'd be funny. I didn
 - add other (serious) silkscreen art
 - add other spoof regulatory markings lol (FCC, CE, ROHS)
 
-Anyways this was mostly just a whimsical thing I did
+Anyways this was mostly just a whimsical thing I did.
+
+I also added mounting holes!!
+
+![](doc/holes.png)
 
 TODOs:
 
