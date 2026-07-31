@@ -110,3 +110,11 @@ I also uh drew my own SD logo in jspaint because I thought it'd be funny. I didn
 - add other spoof regulatory markings lol (FCC, CE, ROHS)
 
 Anyways this was mostly just a whimsical thing I did
+
+TODOs:
+
+- double check the premise of the schematic more closely
+- Write firmware (non-trivial!)
+- Get a quote + BOM optimize
+- Docs, good README, flashing instructions
+- potentially a beauty render
