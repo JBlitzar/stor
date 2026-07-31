@@ -10806,10 +10806,10 @@
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "bae30eaf-789a-4206-b739-5a6375b53a09")
-		(at 129.9 49.845 90)
+		(at 128.95 41.81 180)
 		(descr "200KΩ (2003) ±1%")
 		(property "Reference" "R5"
-			(at 0 -4 90)
+			(at 0 -4 0)
 			(layer "F.SilkS")
 			(uuid "ff79fbac-2aac-468b-9461-47718da7a88b")
 			(effects
@@ -10820,7 +10820,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 2.81 0.09 90)
+			(at 2.81 0.09 0)
 			(layer "F.Fab")
 			(uuid "0f170228-6e5f-4266-b188-bbcbed34591d")
 			(effects
@@ -10831,7 +10831,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_12KR-1202-1_C114760.html"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c867a66c-2ec8-4961-b7d6-95fc343b9ef2")
@@ -10842,7 +10842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d5ae984-6bca-4eae-afd7-01e5d3dd4e20")
@@ -10853,7 +10853,7 @@
 			)
 		)
 		(property "LCSC Part" "C114760"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf9aba2a-660b-4a62-97e6-ab70acc3244b")
@@ -10865,7 +10865,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10878,7 +10878,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0712KL"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10902,26 +10902,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.94 -0.5)
-			(end 0.23 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "addc4cff-8797-4bc8-8944-44c09e2ac983")
-		)
-		(fp_line
-			(start -0.94 -0.5)
-			(end -0.23 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c3694db-34bc-4742-80b2-e579309a9c91")
-		)
-		(fp_line
 			(start 0.94 0.5)
 			(end 0.94 -0.5)
 			(stroke
@@ -10930,6 +10910,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "6c3036b9-5e9a-4e41-942c-3e6d2196b6b2")
+		)
+		(fp_line
+			(start 0.94 -0.5)
+			(end 0.23 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "addc4cff-8797-4bc8-8944-44c09e2ac983")
 		)
 		(fp_line
 			(start 0.23 0.5)
@@ -10961,6 +10951,16 @@
 			(layer "F.SilkS")
 			(uuid "0c691f8e-c2da-4763-b0bf-6c1005b2153b")
 		)
+		(fp_line
+			(start -0.94 -0.5)
+			(end -0.23 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c3694db-34bc-4742-80b2-e579309a9c91")
+		)
 		(fp_circle
 			(center -0.5 0.25)
 			(end -0.47 0.25)
@@ -10973,26 +10973,6 @@
 			(uuid "03beb73d-9439-4c03-9d01-7850be2c68f0")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a349fcdd-e715-4dc1-9c01-9dc1ea716152")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "98baf766-6dc1-46aa-9211-a1bf03adf982")
-		)
-		(fp_line
 			(start 0.5 0.25)
 			(end -0.5 0.25)
 			(stroke
@@ -11001,6 +10981,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "043ad72f-8d48-4769-bb46-4cfa7c1ffe61")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a349fcdd-e715-4dc1-9c01-9dc1ea716152")
 		)
 		(fp_line
 			(start -0.5 0.25)
@@ -11012,8 +11002,18 @@
 			(layer "F.CrtYd")
 			(uuid "a4dc3dd7-5801-408a-9a4e-847bebdb6f1c")
 		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98baf766-6dc1-46aa-9211-a1bf03adf982")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bda1b055-9e41-4fe8-9f3e-d98823bbf3d3")
 			(effects
@@ -11024,7 +11024,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.43 0 90)
+			(at -0.43 0 180)
 			(size 0.566 0.54)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -11033,7 +11033,7 @@
 			(uuid "7998e4c0-87a9-482a-9533-bd414d390bcb")
 		)
 		(pad "2" smd rect
-			(at 0.43 0 90)
+			(at 0.43 0 180)
 			(size 0.566 0.54)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U3-RBIAS)")
