@@ -49,7 +49,7 @@ Then I put it all together! Had to use an A3 sheet because so big lol
 
 The STM pins were unfortunately not... charitably labelled. I used a lot of cmd+f.
 
-Also some confusion between VDD/VDDA and GND/GNDA. Since I'm not doing any analogue stuff, I merged them. Basically, the reddit PSU situation was way overengineered. That's why I went with the TPS.
+Also some confusion between VDD/VDDA and GND/GNDA. Since I'm not doing any analog stuff, I merged them. Basically, the reddit PSU situation was way overengineered. That's why I went with the TPS.
 
 So I guess research and schematic both took a surprising amount of time here.
 
