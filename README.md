@@ -11,8 +11,7 @@ st.com/resource/en/schematic_pack/mb1248-h747i-d03-schematic.pdf
 - STM32H723VGT6
 - USB Full Speed
 - USB C
-- MicroSD backend (256gb cheap, 64gb reputable, 8gb industrial)
-- UHS-I MicroSD backend
+- MicroSD backend (256gb cheap, 64gb reputable, 8gb industrial). Not UHS-I to start.
 - usb3300-ezk usb phy
 - TPS62177DQCR buck
 
