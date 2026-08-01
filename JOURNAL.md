@@ -1,4 +1,11 @@
-Jul 28, 0.5 hours
+---
+title: "USB-C MicroSD Flash Drive"
+author: "JBlitzar"
+description: "High-speed USB-C microSD flash drive"
+created_at: "2026-07-28"
+---
+
+# July 28: Developed the flash drive concept
 
 Basically came up with the idea and assessed feasability. After thinking about my previous hardware projects, I thought a flash drive would be super cool. Why?
 
@@ -12,18 +19,21 @@ Basically came up with the idea and assessed feasability. After thinking about m
 
  yeah uh otherwise not much more to show, just research and concept
 
+Time spent: 0.5 hours
 
-Jul 29, 0.5 hours
+# July 29: Selected the microcontroller and USB PHY
 
 Did some research, locked in some more precise specs. 
 
 ![](doc/r2.png)
 
+Time spent: 0.5 hours
+
+# July 29: Researched and completed the schematic
+
 STM chip is the chip for the job. So unfortuantely I will have to depart from my goat espressif for this project. There do exist STM chips that have built in USB2.0 HS PHY, but they are more expensive (the lcsc listing I found was low stock AND $28 per, which is crazy considering the rk3566 costs just $14).
 
 In the end, STM32H723VGT6 plus usb3300 usb phy is the way to go. The STM *does* have built-in sd card phy which is nice, and the clock speed is more than enough to saturate USB2.0 link speed. Later, I could do something cool, like on-the-fly encryption or something
-
-Jul 29, 4 hours
 
 Time elapsed taken from gh commit timestamps, I was working pretty much continuously.
 
@@ -45,7 +55,7 @@ TPS62177DQCR had a perfectly acceptable example schematic
 
 Then I put it all together! Had to use an A3 sheet because so big lol 
 
-![](schem1.png)
+![](doc/schem1.png)
 
 The STM pins were unfortunately not... charitably labelled. I used a lot of cmd+f.
 
@@ -53,8 +63,9 @@ Also some confusion between VDD/VDDA and GND/GNDA. Since I'm not doing any analo
 
 So I guess research and schematic both took a surprising amount of time here.
 
+Time spent: 4 hours
 
-Jul 29, 2.5 hours
+# July 29: Placed and routed the PCB
 
 Placement and routing !!
 
@@ -82,8 +93,9 @@ Then I just did the routing for the USB PHY and the sd card. Which is like sixte
 
 ![](doc/crazy3.png)
 
+Time spent: 2.5 hours
 
-Jul 30, 1 hour
+# July 30: Refined the routing and USB-C connector
 
 Fussed with the routing a little bit. Managed to get some of the SD bus traces slightly further from the edge, which is probably good for case considerations even if solder mask exists. push and shove routing really is my goat. EasyEDA could never compete. (speaking of which, the newest kicad nightly update releases constraint-driven geometry! so cool! But I digress.)
 
@@ -93,7 +105,9 @@ Yeah, the routing looks quite... intricate ATP
 
 I also swapped out my THT USBC male for a different one that's less sketch and not weird and double-sided. This one will be more secure. It also had the escape routing I needed for the D+ and D- diff pairs to line up on the right side. 
 
-Jul 31, 1 hour
+Time spent: 1.0 hours
+
+# July 31: Documented the design and added mounting holes
 
 I realized that I hadn't been writing journals, so I wrote journals.
 
@@ -122,3 +136,5 @@ TODOs:
 - Get a quote + BOM optimize
 - Docs, good README, flashing instructions
 - potentially a beauty render
+
+Time spent: 1.0 hours
