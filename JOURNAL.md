@@ -138,3 +138,16 @@ TODOs:
 - potentially a beauty render
 
 Time spent: 1.0 hours
+
+
+# August 1: Routing hell
+
+I posted my routing images around because I thought they looked cool, but I actually got free feedback!
+
+Eliminated via-in-pad, re-matched my crystal caps, added some decoupling/bypass, and connected some pins that I needed to that I forgot 💀. Also used a different esd diode. 
+
+I tried to be extra generous because apparently easyeda2kicad scams you and gives you bad courtyards. In eliminating via-in-pad, I finally bit the bullet and put some drunk components. 
+
+![](doc/drunk.png)
+
+Time spent: 2.0 hours
