@@ -33,3 +33,4 @@ fp-info-cache
 */ignored/*
 ignored/*
 *.ignored
+/firmware/lib
