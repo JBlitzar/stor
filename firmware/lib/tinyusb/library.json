@@ -1,0 +1,17 @@
+{
+  "name": "tinyusb",
+  "version": "0.18.0",
+  "build": {
+    "flags": ["-I src"],
+    "srcDir": "src",
+    "srcFilter": [
+      "-<*>",
+      "+<tusb.c>",
+      "+<common/tusb_fifo.c>",
+      "+<device/usbd.c>",
+      "+<class/msc/msc_device.c>",
+      "+<portable/synopsys/dwc2/dcd_dwc2.c>",
+      "+<portable/synopsys/dwc2/dwc2_common.c>"
+    ]
+  }
+}
