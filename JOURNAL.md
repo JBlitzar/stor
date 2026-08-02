@@ -163,6 +163,8 @@ Also added a red LED and a white LED! Fun stuff.
 
 The PR was comically large because of vendored TinyUSB being included (had to edit library.json), it's actually about 500 SLOC, and, like I said, it's mostly config / plumbing.
 
+oh also because kicad was edited, and S-expressions take up many lines.
+
 ![](doc/pr.png)
 
 Also dropped in my FPGA flashing docs. 
