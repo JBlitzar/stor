@@ -175,8 +175,6 @@ TODOs:
 - Docs, good README, flashing instructions in README
 - potentially a beauty render
 
-
-
 Time spent: 1.0 hours
 
 
@@ -192,7 +190,6 @@ Two more blockers that are even more real though:
 Extended things that ought to be basic: C170151, C60474, C106202 (maybe), C22367823, C368809, C39846661, C60490, C105872, C60491, C114760, C138033 (maybe), C25091, C36938886 (maybe).
 
 You know, passives and stuff.
-
 
 EDITS:
 
