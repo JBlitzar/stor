@@ -169,5 +169,12 @@ oh also because kicad was edited, and S-expressions take up many lines.
 
 Also dropped in my FPGA flashing docs. 
 
+TODOs:
+
+- Get a quote + BOM optimize
+- Docs, good README, flashing instructions in README
+- potentially a beauty render
+
+
 
 Time spent: 1.0 hours
