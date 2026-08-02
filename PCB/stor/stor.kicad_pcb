@@ -7262,6 +7262,7 @@
 		(property "Reference" "LED2"
 			(at 0 -4 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cb24a864-d905-4b1c-ab7a-eab56688904d")
 			(effects
 				(font

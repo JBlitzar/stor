@@ -151,3 +151,19 @@ I tried to be extra generous because apparently easyeda2kicad scams you and give
 ![](doc/drunk.png)
 
 Time spent: 2.0 hours
+
+
+# August 1: Firmware
+
+Used TinyUSB. I'll be honest, I used a bit of AI. Mostly firmware is uninteresting here, some config knobs to change but mostly this is piping vendored tinyusb to vendored HAL_SD.
+
+Also added a red LED and a white LED! Fun stuff. 
+
+![](doc/leds.png)
+
+The PR was comically large because of vendored TinyUSB being included (had to edit library.json), it's actually about 500 SLOC, and, like I said, it's mostly config / plumbing.
+
+Also dropped in my FPGA flashing docs. 
+
+
+Time spent: 1.0 hours
