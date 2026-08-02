@@ -1,0 +1,7 @@
+Item,Link,Cost,Notes
+CP2102 for flashing,http://waveshare.com/cp2102-usb-uart-board-type-a.htm,0,"Cost is zero because I'm flashing via FPGA. For others looking to reproduce, this is the simplest thing you can buy"
+SD card,https://www.lcsc.com/product-detail/C42416580.html,0,"I'll be paying out of pocket or self-sourcing. Feel free to gnab whatever listing you want, this is a 128gb listing for which I have no idea if it'll be reputable. Your safest bet is a sandisk off of amazon or digikey"
+PCB,N/A,7.1,green pcb; other colors cost $5 more
+PCBA,N/A,67.97,2x PCBA is the MOQ
+JLC shipping + taxes,N/A,3.3,"Shipping special offer; may cost up to $8, but at the same time I have some coupons. So the total will work out about the same"
+Total,N/A,78.37,
