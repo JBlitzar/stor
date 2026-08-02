@@ -213,3 +213,17 @@ Got it down to $67.97.
 Which is honestly a reasonable price. And will be covered by the grant at this rate. So dubs!
 
 Time spent: 1.5 hours
+
+# August 2: Render and docs
+
+Yeah! I tried to mess around with compositing a bit this time. I like the bright, well-lit background. I stacked subtle amounts of exposure, distortion, chromatic aberration, glare, and color correction on top of each other.
+
+![](doc/compositing.png)
+
+
+STEP export was so frustrating that I eventually just imported and re-exported from Onshape.
+
+![](blend/render1.png)
+
+
+Time spent: 0.5 hours
