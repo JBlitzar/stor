@@ -196,10 +196,11 @@ You know, passives and stuff.
 
 EDITS:
 
+
+- Sourced an 0603 basic 22uF instead of 0402
 - C170151 to C12530
 - C60474 to C1525
 - C106202 to C1549
-- Sourced an 0603 basic 22uF instead of 0402
 - C368809 to C23733
 - C60490 to C25744
 - C105872 to C25905
@@ -207,3 +208,11 @@ EDITS:
 - C114760 to C25752
 - C138033 to C26083
 - There exist zero good male USBC options !! I searched and searched and searched on jlcpcb.com/parts for Economic-supported male usbc options. And there wasn't a single good one. So I'm going to bite the bullet and just use usba. I have adapters. 99% of flash drives look this way anyways. Maybe this is why.
+
+Got it down to $67.97. 
+
+![](doc/jlc_order_1.png)
+
+Which is honestly a reasonable price. And will be covered by the grant at this rate. So dubs!
+
+Time spent: 1.5 hours
