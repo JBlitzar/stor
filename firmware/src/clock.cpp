@@ -16,6 +16,7 @@ namespace clock {
 
 void init() {
   SCB_EnableICache();
+  SCB_EnableDCache();
 
   if (HAL_PWREx_ConfigSupply(PWR_LDO_SUPPLY) != HAL_OK) halt();
 

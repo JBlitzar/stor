@@ -14,6 +14,6 @@
 
 #define CFG_TUD_MSC 1
 
-// The class driver's staging buffer, and the buffer handed to sd::read/write.
-// Raising this is the first lever if throughput ever matters.
-#define CFG_TUD_MSC_EP_BUFSIZE 4096
+#define CFG_TUD_DWC2_DMA_ENABLE 1
+
+#define CFG_TUD_MSC_EP_BUFSIZE 32768

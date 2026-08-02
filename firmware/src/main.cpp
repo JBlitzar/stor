@@ -18,6 +18,13 @@ int main() {
   }
 
   board::enable_usb_clocks();
+
+  const tud_configure_dwc2_t usb_cfg = {
+      .bm_double_buffered = 1u << 1,
+      .vbus_sensing = false,
+  };
+  tud_configure(0, TUD_CFGID_DWC2, &usb_cfg);
+
   tusb_init();
   sd::poll_presence();
 
