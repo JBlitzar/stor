@@ -178,3 +178,17 @@ TODOs:
 
 
 Time spent: 1.0 hours
+
+
+# August 2: bom opt
+
+Got an initial quote coming in at $97... yikes. Absolutely optimizable. Mostly extended things that shouldn't need to be.
+
+Two more blockers that are even more real though:
+ - The usb connector I chose was standard-only. After digging on the JLC parts library, I found the holy grail: C2988371. In stock, usb2.0, economic, type-c, male, right-angle mount.
+- X1 "the processing of this component is difficult. After placing an order, it will be reviewed. If PCBA advanced option is required, additional fees will be charged. The review result will be notified to you by email." 🤔. This ominous warning is probably not worth the $3 saved off of basic parts, so I'll see if there's a Basic and otherwise get an Extended. 
+
+
+Extended things that ought to be basic: C170151, C60474, C106202 (maybe), C22367823, C368809, C39846661, C60490, C105872, C60491, C114760, C138033 (maybe), C25091, C36938886 (maybe).
+
+You know, passives and stuff.

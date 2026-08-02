@@ -24,7 +24,7 @@ int main() {
   uint32_t last_poll = HAL_GetTick();
   while (true) {
     tud_task();
-    if (HAL_GetTick() - last_poll >= 100) {
+    if (HAL_GetTick() - last_poll >= 100) { // 100 ms
       last_poll = HAL_GetTick();
       sd::poll_presence();
     }
