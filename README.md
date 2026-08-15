@@ -33,14 +33,30 @@ Standard USB to UART flashing configuration. Wiring diagram:
 ![](doc/wiring_diagram.png)
 
 To flash the firmware:
+
+Hold BOOT0, tap reset, release
+BOOT0, then:
+
 ```bash
 cd firmware
 pio run -t upload
 pio device monitor # to monitor logs
 ```
 
-Then, put in your microSD card and plug stor into your computer!
+It also might be possible to flash over USB. I haven't tested it though. Instructions are in [firmware/README.md](firmware/README.md), but in short:
+```bash
+cd firmware
+pio run
+```
+Then plug in the board, hold BOOT0, tap reset, release
+BOOT0, then:
+```bash
+dfu-util -a 0 -s 0x08000000:leave -D .pio/build/stor/firmware.bin
+```
 
+I'll make this the default `pio run -t upload` behavior after it's been tested and verified.
+
+Only plug in a microsd card after successfully initially flashing!
 
 ## CAD
 
