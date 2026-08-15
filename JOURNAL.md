@@ -262,7 +262,9 @@ Then for memes:
 
 ![](doc/b_sks.png)
 
+I tried seeing if I wanted to re-source my buttons because they looked too tall in the 3d preview, but I realized that was just a bad 3d model. I re-sourced the part and the one that I found was the same one I already had 😭. This is like the "you search dementia and all the links are purple" meme. Anyways on the [page](https://www.lcsc.com/product-detail/C36938886.html) for it, it is actually good, and a normal height. So we're good.
 
+Then I re-exported all the gerbers. Old prod in production_v1.
 
 
 Time spent: 0.5 hours
