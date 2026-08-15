@@ -228,7 +228,7 @@ STEP export was so frustrating that I eventually just imported and re-exported f
 
 Time spent: 0.5 hours
 
-# August 14
+# August 14: CAD and resubmit!
 
 After review rejection, I revamped some stuff. Designed a case !. Should have some nice holes to slot into the m3 holes for secure mounting. Also I did internal fillet but external chamfer, and the chamfer looks so auraful.
 
