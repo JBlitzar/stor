@@ -238,6 +238,10 @@ Oh also this happened offline, but I got an amazing price for an SD card!! $15 f
 
 Then I re-checked that I met all the requirements. I also asked for some feedback / review in #electronics.
 
+I also cleaned up the SD schematic
+
+![](doc/cleansd.png)
+
 ![](doc/cadshots.png)
 
 Time spent: 1.5 hours
