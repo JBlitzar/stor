@@ -252,6 +252,8 @@ Time spent: 1.5 hours
 
 # August 15: B.silkscreen
 
+Just some tiny tweaks, I promise!
+
 Had some fun with the silkscreen. Redid the swd labels to rotate, and added some test points.
 
 Then for memes:
