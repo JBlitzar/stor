@@ -232,6 +232,8 @@ Time spent: 0.5 hours
 
 After review rejection, I revamped some stuff. Designed a case !. Should have some nice holes to slot into the m3 holes for secure mounting. Also I did internal fillet but external chamfer, and the chamfer looks so auraful.
 
+I spent a long time figuring out what looks good. I got some ID inspo. Seems like the only "iconic" designer usb key is the LaCie Porsche Design USB key, and that's just a box 😭. SanDisk Extreme Pro is pretty good inspo too. But the rest is injection molded consumer electronics slop! I mostly did my own thing.
+
 Oh also this happened offline, but I got an amazing price for an SD card!! $15 for 256GB. That's $0.059 per gb, cheaper than eMMC and SSD. Shoutout Gordon from LCSC for sourcing me this 闪迪高速游戏卡. Genuine sandisk, too. 
 
 Then I re-checked that I met all the requirements
