@@ -244,4 +244,7 @@ I also cleaned up the SD schematic
 
 ![](doc/cadshots.png)
 
+
+Also it turns out you can flash over USB!!!! Maybe. I added it to the docs. This would be very convenient if so, but I'm keeping the uart and swd pins just in case. 
+
 Time spent: 1.5 hours
