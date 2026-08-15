@@ -11,6 +11,8 @@ The specs:
 - up to ~30-40 megabytes per second (untested), approximately saturating the USB2 link speed
 - $0.059 per GB of genuine Sandisk because I got an amazing deal from an LCSC RFQ
   - That's a $15 256GB card!
+- Flashing over UART, USB (maybe), and SWD.
+- Two LEDs
 
 I made this because I always thought USB flash drives were pretty neat. So much storage! Easy file transfer! Ability to USB-boot! Making my own seemed like the perfect justification. Then, I saw that eMMC prices have in fact been inflated in accordance with the whole 2026 AI RAM shortage thing. You know what is still cheap per GB? microSD. You can absolutely get a respectable amount of storage (64gb, 128gb, 256gb) for just $10-20 if you source smartly. And microSDs have endless customization. They go up to 2TB. There exist industrially-rated ones with super high endurance. And, unlike BGA eMMC, they are hot-swappable.
 
