@@ -6,17 +6,15 @@ A USB2.0 High Speed flash drive with a hotswappable MicroSD backend.
 
 The specs:
 
-- STM32H723VGT6
-- USB3300-ezk usb PHY
-- up to ~30-40 megabytes per second (untested), approximately saturating the USB2 link speed
-- $0.059 per GB of genuine Sandisk because I got an amazing deal from an LCSC RFQ
-  - That's a $15 256GB card!
-- Flashing over UART, USB (maybe), and SWD.
-- Two LEDs
+- USB 2.0 Hi-Speed
+- STM32H723VGT6 MCU (Cortex-M7, 550 MHz class)
+- MicroSDXC backend, up to 2 TB
+- ~30–40 MB/s sustained, approximately saturating USB2.0
+
 
 I made this because I always thought USB flash drives were pretty neat. So much storage! Easy file transfer! Ability to USB-boot! Making my own seemed like the perfect justification. Then, I saw that eMMC prices have in fact been inflated in accordance with the whole 2026 AI RAM shortage thing. You know what is still cheap per GB? microSD. You can absolutely get a respectable amount of storage (64gb, 128gb, 256gb) for just $10-20 if you source smartly. And microSDs have endless customization. They go up to 2TB. There exist industrially-rated ones with super high endurance. And, unlike BGA eMMC, they are hot-swappable.
 
-The STM middleman is also fun because it means I can do all sorts of things, from custom USB descriptors to on-the-fly encryption.
+The STM middleman is also fun because it means I can do all sorts of things, from custom USB descriptors to on-the-fly encryption or compression. The H7 even has crypto primitives, so it would be lightning fast! Implementation of this coming soon after the initial firmware is validated.
 
 ## Schematic
 
@@ -38,29 +36,22 @@ Standard USB to UART flashing configuration. Wiring diagram:
 
 To flash the firmware:
 
-Hold BOOT0, tap reset, release
-BOOT0, then:
-
-```bash
-cd firmware
-pio run -t upload
-pio device monitor # to monitor logs
-```
+1. `cd firmware`
+2. Hold BOOT0, tap reset, release BOOT0
+2. Run: `pio run -t upload`
+3. Monitor: `pio device monitor`
 
 It also might be possible to flash over USB. I haven't tested it though. Instructions are in [firmware/README.md](firmware/README.md), but in short:
-```bash
-cd firmware
-pio run
-```
-Then plug in the board, hold BOOT0, tap reset, release
-BOOT0, then:
-```bash
-dfu-util -a 0 -s 0x08000000:leave -D .pio/build/stor/firmware.bin
-```
+
+1. `cd firmware`
+2. `pio run` (to build)
+3. Plug in the board, hold BOOT0, tap reset, release BOOT0
+4. `dfu-util -a 0 -s 0x08000000:leave -D .pio/build/stor/firmware.bin`
+
 
 I'll make this the default `pio run -t upload` behavior after it's been tested and verified.
 
-Only plug in a microsd card after successfully initially flashing!
+Only plug in a microsd card after a successful first flash!
 
 ## CAD
 
