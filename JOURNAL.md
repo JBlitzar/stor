@@ -248,3 +248,21 @@ I also cleaned up the SD schematic
 Also it turns out you can flash over USB!!!! Maybe. I added it to the docs. This would be very convenient if so, but I'm keeping the uart and swd pins just in case. 
 
 Time spent: 1.5 hours
+
+
+# August 15: B.silkscreen
+
+Had some fun with the silkscreen. Redid the swd labels to rotate, and added some test points.
+
+Then for memes:
+
+ - stm32h7 inside mimicing intel inside
+ - sandisk gaming for the nerd cred + the "???" factor + Chinese product description for the visual texture
+ - Considered adding: "not RoHS" or "designed by me in California" but eh idk if worth. 
+
+![](doc/b_sks.png)
+
+
+
+
+Time spent: 0.5 hours
