@@ -227,3 +227,15 @@ STEP export was so frustrating that I eventually just imported and re-exported f
 
 
 Time spent: 0.5 hours
+
+# August 14
+
+After review rejection, I revamped some stuff. Designed a case !. Should have some nice holes to slot into the m3 holes for secure mounting. Also I did internal fillet but external chamfer, and the chamfer looks so auraful.
+
+Oh also this happened offline, but I got an amazing price for an SD card!! $15 for 256GB. That's $0.059 per gb, cheaper than eMMC and SSD. Shoutout Gordon from LCSC for sourcing me this 闪迪高速游戏卡. Genuine sandisk, too. 
+
+Then I re-checked that I met all the requirements
+
+![](doc/cadshots.png)
+
+Time spent: 1.5 hours
