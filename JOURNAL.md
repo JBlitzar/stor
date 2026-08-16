@@ -270,3 +270,16 @@ Then I re-exported all the gerbers. Old prod in production_v1.
 
 
 Time spent: 0.5 hours
+
+# August 16: Auraful silkscreen
+
+Discovered how to make cool labels! installed and played around with [kobee studio](https://github.com/mrcpuddington/kobeestudio), added some callouts and rearranged the silkscreen on F and B. 
+
+It looks SO cool now!!
+
+![](doc/skl1.png)
+
+![](doc/skl2.png)
+
+
+Time spent: 0.5 hours
