@@ -22539,7 +22539,7 @@
 		(property "Reference" "TP1"
 			(at 0 1.998 90)
 			(layer "B.SilkS")
-			(uuid "8a0aeafe-b303-4c74-9eb2-7d97d6ec0c3c")
+			(uuid "c2b53173-eac5-4cf2-b58e-de633768eb68")
 			(effects
 				(font
 					(size 1 1)
@@ -22551,7 +22551,7 @@
 		(property "Value" "TestPoint"
 			(at 0 -2.05 90)
 			(layer "B.Fab")
-			(uuid "651538a5-e3c1-4657-9602-816c33621501")
+			(uuid "23d8de94-4e97-49f6-997a-d23e5692eab5")
 			(effects
 				(font
 					(size 1 1)
@@ -22565,7 +22565,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca7a1503-48b0-4902-b941-1836293388de")
+			(uuid "9af5c88b-dccd-427e-a31d-e924f1f8a906")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22579,7 +22579,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6f3f3cb2-f155-468d-884f-961116550d6e")
+			(uuid "d04323ed-de15-4ba7-af10-fe8d1b8b4090")
 			(effects
 				(font
 					(size 1.27 1.27)
