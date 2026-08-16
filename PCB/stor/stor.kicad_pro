@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../blend/",
       "specctra_dsn": "",
       "vrml": ""
     },
